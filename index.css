@@ -1,0 +1,199 @@
+html, body{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper{
+    display: flex;
+    max-width: 90%;
+    margin: auto;
+    padding: 0 10px;
+    align-items: center;
+}
+
+.navBar{
+    width: 100%;
+    background: #F1F1F1;
+}
+
+.navBar a{
+    color: #081E34;
+}
+
+.leftSide-navBar{
+    display: flex;
+    align-items: center;
+    margin-right:auto ;
+}
+
+.logo{
+    display: flex;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.04em;
+    align-self: center;
+    font-family: 'Kanit', sans-serif;
+}
+
+.logo img{
+    height: 22px;
+    margin-right: 10px;
+}
+
+.rightSide-navBar{
+    display: flex;
+    align-items: center;   
+}
+.menu li{
+    display: inline-flex;
+    margin-right: 40px;
+    line-height: 18px;
+    font-size: 14px;
+    flex-wrap: nowrap;
+}
+.getStart{
+    background: rgba(8, 30, 52, 0.12);
+    border-radius: 100px;
+    padding: 10px 12px;
+    font-size: 14px;
+}
+a{
+    text-decoration: none;
+}
+
+.cover{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background: #F1F1F1;
+    padding-top: 50px;
+}
+
+.leftSide{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 34px 26px;
+}
+
+.text{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 490px;
+}
+.subtitle{
+    font-family: 'Kanit', sans-serif;
+    font-size: 54px;
+}
+
+.rightSide{
+    display: flex;
+    align-items: center; 
+    padding: 12px 34px 26px;
+ 
+}
+
+.image img{
+    min-height: 400px;
+}
+
+.button{
+    background: #712FFF;
+    border-radius: 100px;
+    padding: 10px 12px;
+    font-size: 14px;
+    color: #F1F1F1;
+}
+
+.page1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background: #E1DEE7;
+    padding-top: 50px;
+}
+.column{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    width: 100%;
+}
+.part1{
+    display: flex;
+    width: 100%;
+    background: #F1F1F1;
+    justify-content: flex-start;
+}
+.div-top{
+    display:flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+.div-div{
+    display: flex;
+    flex-direction: column;
+}
+
+.div-title{
+    width: 80%;
+}
+.div-p{
+    width: 80%;
+}
+
+.div-div1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 50px;
+}
+
+.inputBlock{
+    background-color: white;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    width: 75%;
+}
+
+.inputImage{
+    padding-left: 10px;
+}
+
+.inputText{
+    flex-direction: row;
+    text-decoration: none;
+    width: 100%;
+    margin-left: 10px;
+}
+.inputText input{
+    width: 90%;
+    border: none
+}
+ .button2{
+    display: flex;
+    align-items: center;
+ }
+
+ .part2{  
+    width: 100%;
+    background: #F1F1F1;
+    padding-top: 50px;
+ }
+ 
+ .signature{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+ }
+
+ 
+
+ 
+ 
+
